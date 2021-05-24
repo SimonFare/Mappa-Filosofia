@@ -498,7 +498,33 @@ let areas = [
         coords: [575,590, 665,630],
         linksTo: "#Pascal",
         desc: 
-        "",
+        "Pascal nasce in Francia nel 1623, ed essendo di salute cagionevole muore all'età di 39 anni. "+
+        "I suoi studi saranno completi, e copmrenderanno quelli umanistici-classici e quelli scientifici. "+
+        "Riflettere sui suoi studi classici, considerati da Bacone inutili se non per capire la storia, "+
+        "Pascal mette in atto una critica a Cartesio e al metodismo in generale:<br><br>"+
+        "<ul>"+
+        "<li>Il pensiero di Cartesio, in linea con quello aristotelico con il Motore Immobile, dava una spiegazione "+
+        "razionale a tutto, in cui l'uomo si ritrova con un Dio macchina, razionale, che non ascolta e non conforta </li>"+
+        "<li>Alla necessità del pensiero scientifico aggiunge la probabilità</li>"+
+        "<li>Nessuna filosofia razionalista ha dato una spiegazione certa della posizione dell'uomo nel mondo</li>"+
+        "<li>Non esistono solo i processi meccanici, ma anche una dimensione interiore che non è possibile comprendere con la ragione</li>"+
+        "</ul>"+
+        "La riflessione di Pascal non si articola sulla gnoseologia, ma sull'esistenza (che verrà ripresa da Leopardi e Kierkegaard.<br>"+
+        "Al Dio di Cartesio, Pascal preferisce il Dio di Abramo, un Dio persona che aiuta l'uomo.<br><br>"+
+        "<span class=connect>L'esistenza di Dio è una scommessa: non esiste la certezza, ma solo la probabilità"+
+        "</span>"+
+        "Questa idea deriva dalla dipendenza dal gioco d'azzardo di Pascal, a cui era stato consigliato di divertirsi per via della sua salute. <br><br>"+
+        "La vita, nella sua essenza, è sofferenza, e vivere è soffrire e agire. Essa va vissuta in virtù dell'angoscia dell'ignoto. "+
+        "Esiste il divertissement, lo svago che ci distrae dall'angoscia, che viene meno nel momento in cui "+
+        "siamo da soli, quando emergono gli errori e i fallimenti sotto forma di colpe."+
+        "La filosofia di Pascal si articola sul senso da dare all'esistenza, caratterizzata da:"+
+        "<ul>"+
+        "<li>Inquietudine, perché non ne conosciamo il senso né ciò che succede dopo la morte, e dobbiamo legarci ad un Dio persona</li>"+
+        "<li>Scelta e scommessa, perché anche sulla stessa esistenza di Dio bisogna scommettere</li>"+
+        "</ul>"+
+        "<span class=connect>La scommessa cambia totalmente la mia vita perché, se Dio esistesse, il rapporto infinito tra quello che ho perso "+
+        "e quello che otterrei è così grande che giustifica il fatto che io abbia scommesso. Ne vale certamente la pena.</span>"
+        ,
         color: "rgb(135, 220, 220)",
     },
     {
@@ -660,7 +686,7 @@ let areas = [
         "</ul>"+
         "</ul>"+
         "Il sapere dunque è potere, non nel senso di assoggettamento, ma il potere di comprendere l'essenza delle cose. "+
-        "<span class=connect> La conoscenza è intersoggettiva, quindi trasmissibile e comprensibile a tutti; non essendo più "+
+        "<br><br><span class=connect> La conoscenza è intersoggettiva, quindi trasmissibile e comprensibile a tutti; non essendo più "+
         "privata ha bisogno di una nuova organizzazione e di un metoo (VERA INDUZIONE → DEDUZIONE)</p>"+
         "Il metodo aristotelico si basava sui sensi anticipando la natura, ottenendo dunque una conoscenza particolare e ridotta per ottenere conclusioni generali → "+
         "(METODO INDUTTIVO). Per quanto riguarda invece il metoo di Bacone, esso si basa su un ragionamento dal generale al particolare → "+
