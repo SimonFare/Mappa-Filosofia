@@ -25,7 +25,7 @@ let areas = [
         color: "rgb(135, 220, 220)",
     },
     {
-        alt: "Spiegazione 500-600",
+        alt: "Il 500 e la Rivoluzione Scientifica",
         shape: "poly",
         coords: [40,450, 97,398, 257,398, 310,450, 257,504, 97,504],
         linksTo: "#S600",
