@@ -253,7 +253,7 @@ let areas = [
         coords: [480,1308, 530,1255, 675,1255, 725,1308, 675,1360, 530,1360],
         linksTo: "#Hegel",
         desc: 
-        "La sua filosofia è tessa alla comprensione della Storia e della funzione dell'uomo in essa, infatti essa è sistematica, ossia realizzata in "+
+        "La sua filosofia è tesa alla comprensione della Storia e della funzione dell'uomo in essa, infatti essa è sistematica, ossia realizzata in "+
         "funzione di un progetto, e sistematizzante, quindi sistema ogni attività nella Storia, collocando ogni cosa in uno specifico tempo. "+
         "La filosofia della storia di Vico afferma che l'uomo è ciò che fa e ciò che dice, ed è in continua attività; Hegel invece vuole comprendere il reale e "+
         "dunque la Storia fatta dall'uomo, impegnato in numerose attività.<br>"+
@@ -405,8 +405,8 @@ let areas = [
         linksTo: "#Hobbes",
         desc: 
             "Egli scrive il Leviatano, un mostro biblico che in questo testo incarna lo Stato, e "+
-            "il Decive nel 1645, in cui fa una riflessione sulla genesi del potere e il primo paragrafo di intitola Libertà.<br>"+
-            "La sua filosofia è differente da quella di Machiavelli perchè quest'ultimo da della politica "+
+            "il Decive nel 1645, in cui fa una riflessione sulla genesi del potere. Il primo paragrafo si intitola Libertà.<br>"+
+            "La sua filosofia è differente da quella di Machiavelli perchè quest'ultimo fa della politica "+
             "una scienza infallibile; Hobbes, invece, stabilisce una filosofia della politica che si pone alcuni quesiti: "+
             "<ol>"+
             "<li>Cos'è la politica?</li>"+
@@ -456,7 +456,7 @@ let areas = [
         "Mettono alla prova l'uomo, sono i fenomeni naturali. L'uomo risveglia facoltà sopite che lo spingono ad agire e a sviluppare "+
         "strumenti."+
         "</ul>"+
-        "L'uomo di natura è il risultato del lavoro umano ed è guidato dall'istinto i autoconservazione, non tanto dall'istinto di sopravvivenza "+
+        "L'uomo di natura è il risultato del lavoro umano ed è guidato dall'istinto di autoconservazione, non tanto dall'istinto di sopravvivenza "+
         "(amore di sé) ed implica la pietas. Una civiltà deve avere anche la libertà e la perfettibilità.<br>"+
         "<br><span class=connect>IL PROGRESSO POTREBBE ESSERE REGRESSO?<br>"+
         "Esso crea disuguaglianze sociali perchè l'uomo usa gli strumenti per combattere altri uomini e non la natura ostile. "+
@@ -468,7 +468,7 @@ let areas = [
         "<br>"+
         "CONTRATTUALISMO:"+
         "<ul>"+
-        "<li><b>Il potere deriva dal basso</b>: il contratto non è di assoggettamento ma di convenzione. Tutti sono d'accordo a nettere l'interesse comune "+
+        "<li><b>Il potere deriva dal basso</b>: il contratto non è di assoggettamento ma di convenzione. Tutti sono d'accordo a mettere l'interesse comune "+
         "al primo posto, e si assoggettano a loro stessi e alla collettività (volontà generale, infallibile) → autogestione </li>"+
         "<li><b>Alla base c'è la tutela dell'uguaglianza e della libertà</b>: l'assolutismo implica l'assoggettamento del cittadino che mantiene solo la libertà "+
         "di vivere. Locke invece dà la sovranità ad un'assemblea popolare, in una monarchia costituzionale.</li>"+
