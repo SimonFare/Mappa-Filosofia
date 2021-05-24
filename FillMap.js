@@ -48,44 +48,203 @@ let areas = [
 			"oltre che logica. Tutto il processo di Rivoluzione partì dall'operato di Copernico.",
         color: "rgb(135, 220, 220)",
     },
-    {
-        alt: "Razionalismo",
-        shape: "poly",
-        coords: [310,132, 360,80, 526,80, 580,132, 526,185, 363,185],
-        linksTo: "#Raz",
-        desc: "",
-        color: "rgb(135, 220, 220)",
-    },
-    {
-        alt: "Empirismo",
-        shape: "poly",
-        coords: [1252,132, 1302,80, 1468,80, 1522,132, 1468,185, 1302,185],
-        linksTo: "#Emp",
-        desc: "",
-        color: "rgb(135, 220, 220)",
-    },
-    {
-        alt: "Filosofia della Storia",
-        shape: "poly",
-        coords: [90,1040, 144,986, 302,986, 360,1040, 302,1092, 144,1092],
-        linksTo: "#FStoria",
-        desc: "",
-        color: "rgb(135, 220, 220)",
-    },
-    {
-        alt: "Filosofia dello Stato",
-        shape: "poly",
-        coords: [1485,1040, 1539,986, 1697,986, 1755,1040, 1697,1092, 1539,1092],
-        linksTo: "#FStato",
-        desc: "",
-        color: "rgb(135, 220, 220)",
-    },
+    // {
+    //     alt: "Razionalismo",
+    //     shape: "poly",
+    //     coords: [310,132, 360,80, 526,80, 580,132, 526,185, 363,185],
+    //     linksTo: "#Raz",
+    //     desc: "",
+    //     color: "rgb(135, 220, 220)",
+    // },
+    // {
+    //     alt: "Empirismo",
+    //     shape: "poly",
+    //     coords: [1252,132, 1302,80, 1468,80, 1522,132, 1468,185, 1302,185],
+    //     linksTo: "#Emp",
+    //     desc: "",
+    //     color: "rgb(135, 220, 220)",
+    // },
+    // {
+    //     alt: "Filosofia della Storia",
+    //     shape: "poly",
+    //     coords: [90,1040, 144,986, 302,986, 360,1040, 302,1092, 144,1092],
+    //     linksTo: "#FStoria",
+    //     desc: "",
+    //     color: "rgb(135, 220, 220)",
+    // },
+    // {
+    //     alt: "Filosofia dello Stato",
+    //     shape: "poly",
+    //     coords: [1485,1040, 1539,986, 1697,986, 1755,1040, 1697,1092, 1539,1092],
+    //     linksTo: "#FStato",
+    //     desc: "",
+    //     color: "rgb(135, 220, 220)",
+    // },
     {
         alt: "Immanuel Kant",
         shape: "poly",
         coords: [1118,1308, 1168,1255, 1313,1255, 1363,1308, 1313,1360, 1168,1360],
         linksTo: "#Kant",
-        desc: "",
+        desc: 
+        "Nasce a Königsberg nel 1724, vive le rivoluzioni del suo periodo. Compie degli studi matematici che poi abbandonerà per gli studi filsofici, dal "+
+        "momento che la filosofia appare bloccata, mentre la scienza continua. In questo momento l'argomento principale è la Metafisica: "+
+        "<ul>"+
+        "<li>CARTESIO: DEUS SIVE MACHINA</li>"+
+        "<li>SPINOZA: DEUS DIVE NATURA</li>"+
+        "<li>LOCKE: ACCETTAZIONE DI UN PRINCIPIO INDIMOSTRABILE</li>"+
+        "</ul>"+
+        "Nel 1770 scrive il dottorato per la tesi universitaria: <br><br>"+
+        "<span class=connect>INTORNO AI PRINCIPI E ALLE FORME DEL MONDO SENSIBILE E DEL MONDO INTELLIGIBILE</span>"+
+        "Egli distingue quindi due tipi di conoscenza: "+
+        "<ul>"+
+        "<li>CONOSCENZA SENSIBILE</li>"+
+        "<ul>"+
+        "<li>Il soggetto è il <b>fenomeno</b>, ciò che appare secondo le caratteristiche, esso ha un'essenza profonda che si coglie solo con la ragione.</li>"+
+        "<li>La conoscenza sensibile è <i>intuizione</i>, che genera l'immediata conoscenza degli oggetti attraverso lo spazio ed il tempo.</li>"+
+        "<li>La <u>sensibilità</u> è la predisposizione a ricevere sensazioni in modo passivo, attraverso i sensi</li>"+
+        "<li><b>L'incontro di sensibilità e sensazione genera l'intuizione</b></li>"+
+        "<li><i>SPAZIO E TEMPO</i> sono forme a priori che appartengono al soggetto e non necessitano di esperienza né di dimostrazione, hanno una realtà empirica e "+
+        "all'infuori di essi non c'è nulla.</li>"+
+        "<li>Lo spazio è il modo di funzionare del senso esterno</li>"+
+        "<li>Il tempo è il modo di funzionare del senso interno, quello interiore è il valore che diamo alle cose, quello dello spazio è scientifico</li>"+
+        "</ul>"+
+        "<li>CONOSCENZA INTELLIGIBILE</li>"+
+        "<ul>"+
+        "<li>È oggettiva e ordinatrice</li>"+
+        "<li>Il soggetto è il <b>noumeno</b>, l'intelletto</li>"+
+        "</ul>"+
+        "</ul>"+
+        "Fa riferimento a Copernico per la sua Rivoluzione, che in questo caso diventa gnoseologica. Secondo questa riforma, infatti, il soggetto ha gli elementi e le forme per conoscere, non l'oggetto. "+
+        "Prima ci si fermava al semplice fenomeno.<br>"+
+        "La conoscenza è uguale al giudizio, perchè ogni conoscenza si esprime attraverso un giudizio; infatti il predicato di una frase deve aggiungere qualcosa al soggetto. (Sole) "+
+        "La conoscenza deve essere sia <i>universale che produttiva</i>.<br>"+
+        "Kant distingue tre tipi di giudizi: "+
+        "<ul>"+
+        "<li>ANALITICI A PRIORI</li>"+
+        "Producono qualcosa di universalmente valido perchè sono oggettivi, tuttavia non sono costruttivi perchè il predicato non aggiunge nulla al soggetto (corpo esteso) "+
+        "<li>SINTETICI A POSTERIORI</li>"+
+        "Producono qualcosa di non universalmente valido, sono infatti produttivi perchè aggiungono qualcosa al soggetto. Amplificano dunque la conoscenza, MA non sono universalmente "+
+        "validi (sedia pesante).<br>"+
+        "Si fondano sul principio di <u>identità e non contraddizione e sull'esperienza</u>. "+
+        "<li>SINTETICI A PRIORI</li>"+
+        "Si fondano sul principio del soggetto, che sente, con i sensi, e pensa, con l'intelletto, che deve quindi ordinare ciò che colgono i sensi. "+
+        "</ul>"+
+        "Nel  1781 scrive la CRITICA ALLA RAGION PURA, in cui compie un'analisi della gnoseologia partendo dalla domanda: "+
+        "<br><br><span class=connect><i>Il problema vero e proprio della ragion pura è contenuto nella domanda: come sono possibili i giudizi sintetici a priori?</i></span>"+
+        "Egli indaga quindi sui limiti e sulla capacità della ragione per dare alla metafisica un impatto scientifico, sviluppando un modo di conoscere universale. "+
+        "La conoscenza, dopotutto, tende a rispondere agli interrogativi senza risposta sull'esistenza di Dio, sull'infinità dell'universo e sulla mortalità dell'anima. "+
+        "Il limite della conoscenza pura è dunque l'esperienza.<br>"+
+        "Nella prima parte tratta dell'ESTETICA TRASCENDENTALE. "+
+        "<br><br><span class=connect>Chiamo trascendentale ogni conoscenza che si occupi, in generale, non tanto di oggetti, quanto del nostro modo di conoscere gli oggetti nella misura "+
+        "in cui questo deve essere possibile a priori</span>"+
+        "Kant si focalizza dunque sul capire l'essenza degli oggetti e il modo in cui vengono colti.<br>"+
+        "La conoscenza sensibile e intelligibile sono strumenti che l'uomo ha per conoscere a priori, ed esse sono strettamente collegate: "+
+        "<ul>"+
+        "<li>L'intuizione (sensibile) senza i concetti (intelligibile) non può darci conoscenza</li>"+
+        "<li>I concetti (intelligibile) senza intuizione (sensibile) non possono darci conoscenza</li>"+
+        "</ul>"+
+        "Nella seconda parte tratta dell'ANALISI TRASCENDENTALE.<br>"+
+        "Gli oggetti li pensiamo mediante l'intelletto, che ordina i concetti sensibili secondo le leggi dell'intelletto, ossia le dodici categorie ed i dodici giudizi. "+
+        "<br><br>"+
+        "<table>"+
+        "<tr>"+
+        "<td colspan=4>TAVOLA DELLE CATEGORIE</td>"+
+        "<tr>"+
+        "<td><i>QUANTITÀ</i></td>"+
+        "<td><u>QUALITÀ</u></td>"+
+        "<td><b>RELAZIONE</b></td>"+
+        "<td><i>MODALITÀ</i></td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Uno</li>"+
+        "<li>Pluralità</li>"+
+        "<li>Totalità</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Realtà</li>"+
+        "<li>Negazione</li>"+
+        "<li>Limitazione</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Sostanza</li>"+
+        "<li>Casualità</li>"+
+        "<li>Reciprocità</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Possibilità</li>"+
+        "<li>Esistenza</li>"+
+        "<li>Necessità</li>"+
+        "</ul>"+
+        "</td>"+
+        "</table>"+
+        "<br><br>"+
+        "<table>"+
+        "<tr>"+
+        "<td colspan=4>TAVOLA DEI GIUDIZI</td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td><i>QUANTITÀ</i></td>"+
+        "<td><u>QUALITÀ</u></td>"+
+        "<td><b>RELAZIONE</b></td>"+
+        "<td><i>MODALITÀ</i></td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Universali</li>"+
+        "<li>Particolari</li>"+
+        "<li>Singolari</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Affermativi</li>"+
+        "<li>Negativi</li>"+
+        "<li>Infiniti</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Categorici</li>"+
+        "<li>Ipotetici</li>"+
+        "<li>Disgiuntivi</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>"+
+        "<ul>"+
+        "<li>Problematici</li>"+
+        "<li>Assertori</li>"+
+        "<li>Apodittici</li>"+
+        "</ul>"+
+        "</td>"+
+        "</table>"+
+        "<br>"+
+        "Le categorie mettono ordine nei concetti puri dell'intelletto.<br>"+
+        "Infine nella terza parte tratta della DIALETTICA TRASCENDENTALE.<br>"+
+        "Nel 1783 scrive la CRITICA DELLA RAGION PRATICA, in cui fa un'analisi sul problema della morale. La ragione infatti non può andare oltre il fenomeno, ma "+
+        "solo organizzarlo, inoltre essa non ha solo la funzione del conoscere ma anche la volontà, che è la facoltà di agire secondo la rappresentazione di regole. "+ 
+        "La volontàa agisce tenendo conto degli altri secondo i principi di fratellanza ed uguaglianza.<br>"+
+        "Ci sono due tipi di regole che la volontà segue: "+
+        "<ul>"+
+        "<li>MASSIME</li>"+
+        "Sono soggettive e per rendere un'azione morale devo agire secondo una massima, che per essere universalmente valida deve diventare un imperativo "+
+        "<li>IMPERATIVI</li>"+
+        "Sono universalmente validi ed indicano un dovere, esprimendo la necessità di un'azione. Se essa è: "+
+        "<ul>"+
+        "<li>Legale → GIUDIZI IPOTETICI che determinano la volontà con una condizione e c'è un fine</li>"+
+        "<li>Morale → GIUDIZI CATEGORICI che sono universali e necessari, non possono non essere così secondo la ragione</li>"+
+        "</ul>"+
+        "La felicità stessa è un obiettivo e non può essere la base dell'imperativo. "+
+        "</ul>"+
+        "Infine, nel 1790 scrive CRITICA DEL GIUDIZIO, in cui si occupa dell'analisi sul problema della ricerca del bello",
         color: "rgb(135, 220, 220)",
     },
     {
@@ -93,7 +252,106 @@ let areas = [
         shape: "poly",
         coords: [480,1308, 530,1255, 675,1255, 725,1308, 675,1360, 530,1360],
         linksTo: "#Hegel",
-        desc: "",
+        desc: 
+        "La sua filosofia è tessa alla comprensione della Storia e della funzione dell'uomo in essa, infatti essa è sistematica, ossia realizzata in "+
+        "funzione di un progetto, e sistematizzante, quindi sistema ogni attività nella Storia, collocando ogni cosa in uno specifico tempo. "+
+        "La filosofia della storia di Vico afferma che l'uomo è ciò che fa e ciò che dice, ed è in continua attività; Hegel invece vuole comprendere il reale e "+
+        "dunque la Storia fatta dall'uomo, impegnato in numerose attività.<br>"+
+        "La Storia evolutiva è spirituale, visto che quella biologica ha un termine, infatti l'uomo si arricchisce facendo la Storia.<br>"+
+        "Scrisse 4 opere: "+
+        "<ul>"+
+        "<li>Vita di Gesù (1795)</li>"+
+        "<li>Lineamenti della Filosofia del Diritto (1821)</li>"+
+        "Il vero è l'intero: la verità è nel generale, perchè nel particolare la visione è distorta."+
+        "<li>Enciclopedia della Storia Filosofica (1827)</li>"+
+        "</ul>"+
+        "Di cui la più importante è: "+
+        "<ul>"+
+        "<li>Fenomenologia dello Spirito (1807)</li>"+
+        "</ul>"+
+        "La fenomenologia si occupa di comprendere l'oggetto del fenomeno, ciò che appare, ossia lo Spirito Assoluto. È una storia romanzata dello Spirito, soggetto ed oggetto, che "+
+        "appare quando lo comprendiamo. <br>"+
+        "<br>"+
+        "In ogni conflitto abbiamo una tesi, un'antitesi e una sintesi, essendo risultato di un processo dialettico. "+
+        "Lo Spirito compie un percorso: "+
+        "<ul>"+
+        "<li>COSCIENZA<li>"+
+        "È il grado acquisito dall'uomo, capace di comprendere gli oggetti in base al contesto e di coglierne l'essenza. "+
+        "Sottotappe: "+
+        "<ul>"+
+        "<li>Certezza sensibile</li>"+
+        "Nel momento in cui, attraverso i sensi, vogliamo un oggetto, esso appare prima come una verità, ma poi appare autocontraddittorio "+
+        "<li>Percezione</li>"+
+        "Per comprenderlo davvero bisogna consultare le caratteristiche del generale "+
+        "<li>Intelletto</li>"+
+        "Organizza il materiale dell'esperienza e permette di comprendere e applicare le essenze "+
+        "</ul>"+
+        "PASSAGGIO: <br>"+
+        "In base alle idee o alle convinzioni ognuno è cosciente del proprio essere. Le coscienze si confrontano e diventano autocoscienze. Ognuno è diversamente cosciente rispetto all'altro. Il "+
+        "passaggio può anche avvenire in seguito ad una crisi di coscienza; anche l'incapacità di adeguarsi genera autocoscienza "+
+        "<li>AUTOCOSCIENZA</li>"+
+        "Consapevolezza di avere una coscienza.<br>"+
+        "Sottotappe:"+
+        "<ul>"+
+        "<li>Scontro</li>"+
+        "Lotta confronto tra le coscienze, che iventano consapevoli di sé → <b>Tesi contro l'antitesi</b>, nella quale prevale l'idea del più forte. "+
+        "<li>Sottomissione</li>"+
+        "La condizione che ne deriva è l'autocoscienza del padrone e l'autocoscienza del servo, che si è assoggettato per avere salva la vita nella competizione. Il "+
+        "parone ha la forza spirituale di preferire alla schiavitù la morte. "+
+        "<li>Lavoro</li>"+
+        "È l'elemento che riscatta l'uomo servo, perchè per il lavoro si ottiene qualcosa in cambio, e il lavoro nobilita l'uomo perchè "+
+        "garantisce indipendenza economica e morale. Tuttavia, a volte lo debilita. Ad un certo punto il padrone non sa fare più nulla e "+
+        "diventa schiavo del servo. (operai)<br>"+
+        "Chi lavora lascia l'impronta con il proprio Spirito → lo schiavo è migliore del padrone "+
+        "<ul>"+
+        "Stoicismo: il servo può essere mantenuto in catene ma non è prigioniero<br>"+
+        "Scetticismo: vivere in un mondo in cui non si crede ma in cui si deve necessariamente stare ↓<br>"+
+        "<br><span class=connect>Lo Spirito dell'uomo diventa coscienza infelice e sofferente. (Medioevo) </span><br><br>"+
+        "PASSAGGIO: <br>"+
+        "La coscienza deve intraprendere un nuovo percorso per essere Ragione. L'uomo comincia a pensare che la Storia non è già scritta, ma capiisce di esserne artefice, e che "+
+        "la natura è governata a leggi (laicizzazione cultura). "+
+        "<li>RAGIONE</li>"+
+        "Interpreta il mondo attraverso le leggi della Natura.<br>"+
+        "Diritti Naturali ed Artificiali:<br>"+
+        "Il Diritto Naturale dell'uomo → sono diritti che acquisice per nascita <br>"+
+        "Il Diritto Artificiale del cittadino → devono essere garantiti anche quando convergono le autocoscienze nella formazione della società. L'uomo "+
+        "diventa cittadino con leggi artificiali che garantiscono anche i diritti naturali. "+
+        "<li>SPIRITO</li>"+
+        "Lo Spirito teoretico si oggettivizza: "+
+        "<ul>"+
+        "<li>Locke e Rousseau → contratto sociale</li>"+
+        "<li>Ciò che è razionale è reale</li>"+
+        "</ul>"+
+        "E lo Stato è l'assoluto materialismo dello Spirito, rendendo l'uomo diverso dall'animale. "+
+        "<li>RELIGIONE</li>"+
+        "<li>SPIRITO ASSOLUTO</li>"+
+        "</ul>"+
+        "Il passaggio tra le varie tappe avviene con la dialettica."+
+        "La Storia si manifesta nei conflitti tra opposti (Eraclito, Vico) che determinano il passaggio tra tappe "+
+        "PILASTRI:<br>"+
+        "<ol>"+
+        "<li>FINITO ED INFINITO</li>"+
+        "INFINITO = tutto in avvenire <br>"+
+        "FINITO = inscindibile dall'infinito ↓ <br>"+
+        "Qualcosa di finito si è già espressa al massimo grado e consta di diverse tappe; lo Spirito infatti si "+
+        "evolve continuamente. Il finito non si ferma mai e continua a realizzare l'infinito in ogni momento, quindi le "+
+        "due cose coincidono.<br>"+
+        "Una volta che un finito giunge a termine, si passa ad un altro finito, che si compie ma continua.<br>"+
+        "Il mondo della Storia è infinito, è solo un momento dello Spirito che si realizza. "+
+        "<li>ESSERE E DOVER ESSERE</li>"+
+        "Coincidono perchè l'essere deve essere in questo modo, non può essere diversamente "+
+        "<li>REALE E RAZIONALE</li>"+
+        "Coincidono dal momento che ciò che è reale è razionale, perchè non può essere diverso da ciò che è. (Medioevo) "+
+        "</ol>"+
+        "Egli, inoltre, prende personaggi come CESARE, ROBESPIERRE e NAPOLEONE definendoli:"+
+        "<br><br><span class=connect> EROI COSMICO-STORICI</span><br><br>"+
+        "Eroi perchè mettono davanti l'interesse del popolo; storici perchè intervengono in modo concreto; cosmici perchè "+
+        "hanno ripercussioni universali lasciando tracce profonde.<br>"+
+        "Lo Spirito usa l'uomo come strumento attraverso alcuni individui, arrivando a parlare di: "+
+        "<br><br><span class=connect> ASTUZIA DELLA RAGIONE</span><br><br>"+
+        "Che quindi realizza ciò di cui è giunta l'ora e una volta che ciò è realizzato, abbandona l'uomo e passa avanti (interviene "+
+        "nella Storia). L'Assoluto non ha mai fine e non si realizza mai definitivamente e il suo sviluppo è dato da conflitti di ogni tipo → "+
+        "l'idea si concretizza e lo Spirito si realizza nelle nuove istituzioni.",
         color: "rgb(135, 220, 220)",
     },
     {
@@ -151,10 +409,10 @@ let areas = [
             "La sua filosofia è differente da quella di Machiavelli perchè quest'ultimo da della politica "+
             "una scienza infallibile; Hobbes, invece, stabilisce una filosofia della politica che si pone alcuni quesiti: "+
             "<ol>"+
-                "<li>Cos'è la politica?</li>"+
-                "<li>Come dev'essere?</li>"+
-                "<li>A cosa serve?</li>"+
-                "<li>Chi ha stabilito che gli uomini devono esser governati?</li>"+
+            "<li>Cos'è la politica?</li>"+
+            "<li>Come dev'essere?</li>"+
+            "<li>A cosa serve?</li>"+
+            "<li>Chi ha stabilito che gli uomini devono esser governati?</li>"+
             "</ol>"+
             "Durante la Guerra dei Trent'anni egli cerca di dare una giustificazione all'Assolutismo "+
             "partendo da una riflessione sulla natura umana, con la domanda: "+
@@ -176,19 +434,62 @@ let areas = [
         color: "rgb(135, 220, 220)",
     },
     {
-        alt: "John Locke",
-        shape: "rect",
-        coords: [1170,455, 1265,485],
-        linksTo: "#Locke",
-        desc: "    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia molestiae doloremque illo inventore, harum ducimus quos repellendus cumque, aliquam doloribus accusantium esse qui vel accusamus fuga itaque laudantium? Commodi hic consequatur iusto sequi voluptatibus, distinctio enim voluptate magni explicabo tenetur voluptates rerum reiciendis labore eligendi voluptas quibusdam perspiciatis atque nihil sint! Eum odit numquam, nam quisquam optio sequi inventore at similique ex? Corporis accusamus culpa qui iure tempore odit, consectetur reiciendis quos accusantium non odio assumenda ipsum laboriosam similique mollitia dolore perferendis modi praesentium nobis, eveniet magnam neque? At inventore beatae esse fugiat cum eos earum maxime corporis unde quibusdam id nam ut dolore accusantium vitae natus, ipsum aliquam hic perspiciatis placeat mollitia voluptate! Quibusdam nulla voluptates excepturi libero? Delectus, dolorem atque laboriosam placeat maiores sit praesentium earum culpa repellat iste ipsam aliquam quidem corrupti. Architecto enim officia illo placeat nisi aut laboriosam rem quaerat nemo inventore. Rerum sapiente nobis totam placeat harum perferendis at officia nostrum? Officiis hic aliquid iusto ullam laudantium, totam cupiditate corporis reprehenderit eligendi laborum enim porro provident nam fugiat nesciunt tenetur nihil voluptatum, repellendus alias ducimus repellat esse? Possimus earum nulla veniam quasi distinctio tenetur quisquam necessitatibus reiciendis vitae molestiae at qui maxime ipsam repellat sapiente magnam voluptatum doloribus dolorem quam, officiis veritatis recusandae eligendi? Nulla neque et sint error dolorum facilis quos cupiditate asperiores architecto rerum nihil fugiat laborum fugit, possimus dolores? Nisi nostrum quo facere. Non libero nemo fugit ut quod deserunt. Libero deleniti impedit mollitia animi ipsum expedita illum, incidunt fuga reprehenderit beatae ratione non possimus aspernatur nisi perspiciatis modi numquam dicta pariatur totam delectus vitae illo molestias voluptas. Culpa minima debitis iure animi velit quia omnis minus amet, vero quibusdam ducimus maxime necessitatibus eum quisquam! Doloribus doloremque amet blanditiis dolore quaerat, illum quo accusamus, voluptatem, consequatur suscipit illo voluptas eaque minus culpa error sequi. Natus harum excepturi quam, aliquam nisi aperiam perferendis, exercitationem suscipit eius eos pariatur eaque quo nihil cupiditate nesciunt cumque! Eveniet, minus asperiores rerum expedita magni rem officia dolorem, ut ducimus excepturi fuga, fugiat sint. Mollitia illum accusantium sit beatae, unde nam debitis soluta nulla quaerat id facilis vero cumque est assumenda sequi eveniet et blanditiis dignissimos voluptate. Provident ipsum at neque vero itaque cum ullam debitis error ratione eveniet. Maxime dolorem debitis sequi repellendus voluptatum accusamus, non nam eligendi. Officiis ut, temporibus laborum ipsum quasi veniam, veritatis, iure possimus voluptas ullam pariatur incidunt assumenda. Aliquid, nam?    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia mollitia molestiae doloremque illo inventore, harum ducimus quos repellendus cumque, aliquam doloribus accusantium esse qui vel accusamus fuga itaque laudantium? Commodi hic consequatur iusto sequi voluptatibus, distinctio enim voluptate magni explicabo tenetur voluptates rerum reiciendis labore eligendi voluptas quibusdam perspiciatis atque nihil sint! Eum odit numquam, nam quisquam optio sequi inventore at similique ex? Corporis accusamus culpa qui iure tempore odit, consectetur reiciendis quos accusantium non odio assumenda ipsum laboriosam similique mollitia dolore perferendis modi praesentium nobis, eveniet magnam neque? At inventore beatae esse fugiat cum eos earum maxime corporis unde quibusdam id nam ut dolore accusantium vitae natus, ipsum aliquam hic perspiciatis placeat mollitia voluptate! Quibusdam nulla voluptates excepturi libero? Delectus, dolorem atque laboriosam placeat maiores sit praesentium earum culpa repellat iste ipsam aliquam quidem corrupti. Architecto enim officia illo placeat nisi aut laboriosam rem quaerat nemo inventore. Rerum sapiente nobis totam placeat harum perferendis at officia nostrum? Officiis hic aliquid iusto ullam laudantium, totam cupiditate corporis reprehenderit eligendi laborum enim porro provident nam fugiat nesciunt tenetur nihil voluptatum, repellendus alias ducimus repellat esse? Possimus earum nulla veniam quasi distinctio tenetur quisquam necessitatibus reiciendis vitae molestiae at qui maxime ipsam repellat sapiente magnam voluptatum doloribus dolorem quam, officiis veritatis recusandae eligendi? Nulla neque et sint error dolorum facilis quos cupiditate asperiores architecto rerum nihil fugiat laborum fugit, possimus dolores? Nisi nostrum quo facere. Non libero nemo fugit ut quod deserunt. Libero deleniti impedit mollitia animi ipsum expedita illum, incidunt fuga reprehenderit beatae ratione non possimus aspernatur nisi perspiciatis modi numquam dicta pariatur totam delectus vitae illo molestias voluptas. Culpa minima debitis iure animi velit quia omnis minus amet, vero quibusdam ducimus maxime necessitatibus eum quisquam! Doloribus doloremque amet blanditiis dolore quaerat, illum quo accusamus, voluptatem, consequatur suscipit illo voluptas eaque minus culpa error sequi. Natus harum excepturi quam, aliquam nisi aperiam perferendis, exercitationem suscipit eius eos pariatur eaque quo nihil cupiditate nesciunt cumque! Eveniet, minus asperiores rerum expedita magni rem officia dolorem, ut ducimus excepturi fuga, fugiat sint. Mollitia illum accusantium sit beatae, unde nam debitis soluta nulla quaerat id facilis vero cumque est assumenda sequi eveniet et blanditiis dignissimos voluptate. Provident ipsum at neque vero itaque cum ullam debitis error ratione eveniet. Maxime dolorem debitis sequi repellendus voluptatum accusamus, non nam eligendi. Officiis ut, temporibus laborum ipsum quasi veniam, veritatis, iure possimus voluptas ullam pariatur incidunt assumenda. Aliquid, nam?",
-        color: "rgb(135, 220, 220)",
-    },
-    {
         alt: "Jean-Jacuqes Rousseau",
         shape: "rect",
         coords: [1000,860, 1125,895],
         linksTo: "#Rousseau",
-        desc: "",
+        desc: 
+        "Nasce a Ginevra, sotto un regime assoluto illuminato. Scrive il CONTRATTO SOCIALE, L'EMILIO e verso metà 700 i discorsi: "+
+        "<ul>"+
+        "<li> Discorso sulle scienze e sulle arti (1750) </li>"+
+        "<li> Discorso sull'origine e i fondamenti delle disuguaglianze sociali (1755)</li>"+
+        "</ul>"+
+        "Parte anche lui dall' IPOTESI LIMITE dell'UOMO DI NATURA; per lui l'uomo è il "+
+        "<i>buon selvaggio</i>, puro perchè non ha contatto con la civiltà. Egli infatti si basa sulla natura "+
+        "benevola, vivendo in un'eterna primavera, sparso e non deve sforzarsi per sopravvivere. "+
+        "<br><br><span class=connect>COME NASCE TUTTO?</span>"+
+        "<ul>"+
+        "<li>Dispersione</li>"+
+        "Come la madre che rapidamente si separa dal figlio, l'uomo non può vivere in solitudine, è nudo, incontaminato, e stupido "+
+        "perchè ha poche pretese. "+
+        "<li>Cambiamenti</li>"+
+        "Mettono alla prova l'uomo, sono i fenomeni naturali. L'uomo risveglia facoltà sopite che lo spingono ad agire e a sviluppare "+
+        "strumenti."+
+        "</ul>"+
+        "L'uomo di natura è il risultato del lavoro umano ed è guidato dall'istinto i autoconservazione, non tanto dall'istinto di sopravvivenza "+
+        "(amore di sé) ed implica la pietas. Una civiltà deve avere anche la libertà e la perfettibilità.<br>"+
+        "<br><span class=connect>IL PROGRESSO POTREBBE ESSERE REGRESSO?<br>"+
+        "Esso crea disuguaglianze sociali perchè l'uomo usa gli strumenti per combattere altri uomini e non la natura ostile. "+
+        "Nel progresso la pietas diventa egoismo e nasce la proprietà privata. Si sviluppa la ragione → immaginazione → riflessione sull'esistenza.</span>"+
+        "La nascita della civiltà coincide con la nascita della sofferenza e delle disuguaglianze, perchè lo sviluppo ha dato a chi aveva tanto e "+
+        "tolto a chi già aveva poco, anche se tutti nasciamo con la tendenza al perfetto. <br>"+
+        "È dunque necessario un CONTRATTO SOCIALE (diverso da Hobbes e Locke). Con il concetto di contratto sociale di Rousseau cambia il concetto di sovranità "+
+        "e governo: contrattualismo costituzionale e non sul terzo contraente (sovrano). Qui il terzo contraente è lo Stato."+
+        "<br>"+
+        "CONTRATTUALISMO:"+
+        "<ul>"+
+        "<li><b>Il potere deriva dal basso</b>: il contratto non è di assoggettamento ma di convenzione. Tutti sono d'accordo a nettere l'interesse comune "+
+        "al primo posto, e si assoggettano a loro stessi e alla collettività (volontà generale, infallibile) → autogestione </li>"+
+        "<li><b>Alla base c'è la tutela dell'uguaglianza e della libertà</b>: l'assolutismo implica l'assoggettamento del cittadino che mantiene solo la libertà "+
+        "di vivere. Locke invece dà la sovranità ad un'assemblea popolare, in una monarchia costituzionale.</li>"+
+        "<li><b>Ogni individuo cede il consenso del governo alla collettività:</b> stringe un patto di associazione. In quest'ottica il suffragio per censo è "+
+        "inammissibile perchè negherebbe la possibilità di votare a chi non paga alte somme allo Stato.</li>"+
+        "</ul>"+
+        "La società è ottimale con una democrazia diretta (il popolo può legiferare).<br>"+
+        "Il potere è legittimo solo se c'è consenso, perchè la sovranità passa al popolo e la legge è espressione della volontà del popolo, che "+
+        "vuole il bene pubblico. Tuttavia ciò è applicabile sono in zone ristrette.<br>"+
+        "Il governo non è superiore all'assemblea; il popolo sceglie pochi eletti che vigilano sull'osservanza delle leggi e le fanno rispettare. "+
+        "Se non è efficiente si può destituire. Non può creare leggi e media tra il popolo che fa le leggi e il popolo che le rispetta.<br>"+
+        "Non può mettere al primo posto l'interesse personale. <br>"+
+        "La Carta Costituzionale è garante di tutti i diritti a cui le leggi si attengono e garantisce uguaglianza a tutti i cittadini → LA LEGGE È UGUALE PER TUTTI <br>"+
+        "<br><span class=connect>PACTUM UNIONIS → convinzione che nessuno venga escluso</span>"+
+        "La volontà generale garantisce:"+
+        "<ol>"+
+        "<li>Sicurezza</li>"+
+        "<li>Libertà</li>"+
+        "<li>Uguaglianza</li>"+
+        "<li>Diritto allo studio e diritti uguali per tutti: a nessuno viene preclusa alcuna possibilità</li>"+
+        "</ol>",
         color: "rgb(135, 220, 220)",
     },
     {
@@ -196,7 +497,17 @@ let areas = [
         shape: "rect",
         coords: [575,590, 665,630],
         linksTo: "#Pascal",
-        desc: "",
+        desc: 
+        "",
+        color: "rgb(135, 220, 220)",
+    },
+    {
+        alt: "John Locke",
+        shape: "rect",
+        coords: [1170,455, 1265,485],
+        linksTo: "#Locke",
+        desc:
+        "",
         color: "rgb(135, 220, 220)",
     },
     {
@@ -349,7 +660,7 @@ let areas = [
         "</ul>"+
         "</ul>"+
         "Il sapere dunque è potere, non nel senso di assoggettamento, ma il potere di comprendere l'essenza delle cose. "+
-        "<span id=connect> La conoscenza è intersoggettiva, quindi trasmissibile e comprensibile a tutti; non essendo più "+
+        "<span class=connect> La conoscenza è intersoggettiva, quindi trasmissibile e comprensibile a tutti; non essendo più "+
         "privata ha bisogno di una nuova organizzazione e di un metoo (VERA INDUZIONE → DEDUZIONE)</p>"+
         "Il metodo aristotelico si basava sui sensi anticipando la natura, ottenendo dunque una conoscenza particolare e ridotta per ottenere conclusioni generali → "+
         "(METODO INDUTTIVO). Per quanto riguarda invece il metoo di Bacone, esso si basa su un ragionamento dal generale al particolare → "+
@@ -461,7 +772,45 @@ let areas = [
         shape: "rect",
         coords: [455,845, 535,885],
         linksTo: "#Vico",
-        desc: "",
+        desc: 
+        "È uno dei massimi esponenti della filosofia napoletana, campana, italiana ed europea. Si distacca dal secolo "+
+        "dei metodi e dal pensiero scientifico del 600, in quanto la sua è una FILOSOFIA DELLA STORIA. "+
+        "Scrisse Scienza Nuova nel 1725, intendendo con il suo titolo la Storia in quanto qualcosa è scientifica quando rispetta delle leggi fisse e può essere sperimentata. La "+
+        "Storia dunque è al primo posto tra le scienze e ha bisogno i strumenti → physis=matematica,fisica  storia=filosofia,filologia. "+
+        "La Storia non sono solo gli eventi, ma le vicende umane nel complesso e il percorso che l'uomo ha compiuto da quando esiste, egli deve "+
+        "quindi comprendere le leggi e le dinamiche che fanno andare avanti il percorso. Dopotutto tutte le attività "+
+        "che svolge l'uomo generano storia."+
+        "Uno dei pilastri fondamentali è il:"+
+        "<br><br><span class=connect>VERUM FACTUM</span>"+
+        "Secondo cui è possibile conoscere e stabilire la verità solo di qualcosa che abbiamo fatto. Solo Dio quindi può "+
+        "conoscere con verità il mondo, perchè l'ha creato, quindi per l'uomo esistono solo interpretazioni. Egli può però conoscere "+
+        "la storia, visto che ne è fattore.<br>"+
+        "Dio in ogni caso è l'architetto dello svolgersi delle attività dell'uomo, che non deve fare altro che realizzare il progetto divino. "+
+        "<br><br><span class=connect>Dio= architetto ; uomo=fabbro</span>"+
+        "Il primo è inteso come la Provvidenza, che detta le leggi della Storia.<br>"+
+        "<br>"+
+        "Viene stabilito anche un metodo: <br>"+
+        "Mentre lo scienziato indaga i fatti fisici e individua le leggi, lo storico deve rendere comprensibile e giustificare la "+
+        "Storia, spiegando gli eventi che accadono secondo leggi divine. "+
+        "La filologia permette di accedere ai fatti e di tenere conto degli elementi caratterizzanti di ciascuna epoca. Ogni periodo quindi "+
+        "è importante perchè intesse la storia ed è la base per i periodi successivi. "+
+        "<br><br><span class=connect>FILOLOGIA=fatti sui quali la filosofia inaga per trarne il vero</span>"+
+        "La Storia è ciclica, con corsi e ricorsi che si ripetono; cambiano le situazioni, le risorse, le armi ma i modi sono sempre gli stessi.<br>"+
+        "Le epoche della Storia sono:"+
+        "<ol>"+
+        "<li>ETÀ DEGLI DEI</li>"+
+        "Dopo le prime forme di organizzazione sociale, ogni aspetto della vita è segnato dai sensi e dalla fantasia. Gli uomini "+
+        "'stupidi, insensati, orribili bestioni' sono come dei fanciulli e si affidano alla guida dei sensi. La ragione è ancora debole "+
+        "per descrivere il mondo. Nasce la religiosità degli dei → politeismo greco. <b>Legge divina. I sacerdoti sono capi politici. Lingua a gesti</b>.<br><br>"+
+        "<li>ETÀ DEGLI EROI</li>"+
+        "Alcuni uomini si impongono sugli altri con la forza e si attribuiscono proprietà divine, elevandosi rispetto agli altri. Nasce "+
+        "l'aristocrazia, fondata sul virtuosismo. <b>Legge del più forte</b>. La religione e il timore dell'ira divina sono il limite per mantenere in piedi "+
+        "la civiltà. (Hobbes) <br><br>"+
+        "<li>ETÀ DEGLI UOMINI</li>"+
+        "Sviluppo della ragione come parte della natura umana. Senso del dovere e sottomissione alle leggi. <b>Leggi umane.</b>"+
+        "La legge è comune e uguale per tutti. Laicizzazione della cultura, distaccamento dalle leggi divine. <br><br>"+
+        "</ol>"+
+        "Ciò che deve accadere accadrà e ciò che è accaduto non poteva non accadere.",
         color: "rgb(135, 220, 220)",
     },
 ];
@@ -532,7 +881,7 @@ for (let a of areas) {
         tit.style.position = "fixed";
         tit.style.top = "0";
         tit.style.width = "55%";
-        descr.style.paddingTop = "45px";
+        descr.style.paddingTop = "55px";
     }
 
     // Get all modals
