@@ -499,7 +499,7 @@ let areas = [
         linksTo: "#Pascal",
         desc: 
         "Pascal nasce in Francia nel 1623, ed essendo di salute cagionevole muore all'età di 39 anni. "+
-        "I suoi studi saranno completi, e copmrenderanno quelli umanistici-classici e quelli scientifici. "+
+        "I suoi studi saranno completi, e comprenderanno quelli umanistici-classici e quelli scientifici. "+
         "Riflettere sui suoi studi classici, considerati da Bacone inutili se non per capire la storia, "+
         "Pascal mette in atto una critica a Cartesio e al metodismo in generale:<br><br>"+
         "<ul>"+
@@ -533,7 +533,71 @@ let areas = [
         coords: [1170,455, 1265,485],
         linksTo: "#Locke",
         desc:
-        "",
+        "Locke è considerato come il padre dell'Empirismo, in pieno contrasto con Cartesio, padre del Razionalismo. "+
+        "Dal momento che Locke cresce in un'Inghilterra attraversata da conflitti politici o religiosi, è morto aperto mentalmente e tollerante.<br><br>"+
+        "La filosofia di Locke è gnoseologica, e si interroga sulla conoscenza, sulle sue origini e sui suoi limiti.<br><br>"+
+        "<span class=connect>Origine e limite della conoscenza è l'esperienza sensibile. "+
+        "L'intelletto, infatti, non può in alcun modo produrre o distruggere idee, perché alla nascita è una tabula rasa</span>"+
+        "Nel SAGGIO SULL'INTELLETTO UMANO, viene introdotta l'IDEA come qualunque cosa che l'intelletto umano possa pensare."+
+        "<br><br><span class=important>LE IDEE</span>"+
+        "Le idee sono diverse dalle idee platoniche, forme perfette cui facciamo riferimento, e più simili a quelle cartesiane, semplici oggetti del pensiero. "+
+        "Tuttavia, per Locke, non esistono idee innate e universalmente valide, perché non può esistere il consenso universale per qualcosa. Le idee derivano direttamente "+
+        "da qualcosa fuori o dentro l'uomo. Si distinguono dunque due tipi di esperienza, che si influenzano tra di loro.<br><br>"+
+        "<table>"+
+        "<tr>"+
+        "<td colspan=2>Tipi di esperienza</td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td>Interna, conoscenza delle emozioni</td>"+
+        "<td>Esterna, conoscenza delle cose</td>"+
+        "</tr>"+
+        "</table>"+
+        "<br>L'esperienza ci fa scaturire delle idee attraverso le qualità, che si distinguono in due tipi:<br><br>"+
+        "<table>"+
+        "<tr>"+
+        "<td colspan=2>Tipi di qualità</td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td>Primarie, che sono oggettive (Movimento, Stasi, Forma, Colore)</td>"+
+        "<td>Secondarie, che sono soggettive (Pesantezza, Colore)</td>"+
+        "</tr>"+
+        "</table><br><br>"+
+        "<table>"+
+        "<tr>"+
+        "<td colspan=2>Tipi di idee</td>"+
+        "</tr>"+
+        "<tr>"+
+        "<td>Idee Semplici, che si dividono a loro volta in:"+
+        "<ul>"+
+        "<li>Idee di Sensazione, derivate dall'esperienza esterna e percepite con i sensi. Corrispondono alle qualità primarie e vengono ricevute passivamente (in contrasto con il pensiero di Kant)</li>"+
+        "<li>Idee di Riflessione, derivate dall'esperienza interna e corrispondono alle emozioni</li>"+
+        "</ul>"+
+        "</td>"+
+        "<td>Idee Complesse, che derivano dall'elaborazione delle idee semplici attuata dall'intelletto, e si dividono a loro volta in:"+
+        "<ul>"+
+        "<li>Idee di Modi, che non sussistono per sé (l'idea di delitto non esiste senza qualcuno che lo commette)</li>"+
+        "<li>Idee di Sostanza, che sono combinazioni di idee semplici che portano a oggetti sempre più complessi:</li>"+
+        "</ul>"+
+        "Corpo → Corpo animale → Corpo animale quadrupede → Corpo animale quadrupede con coda → ... → Gatto"+
+        "<ul>"+
+        "<li>Idee di Relazione, che sono combinazioni di idee di sostanza, come il rapporto madre-figlio o servo-padrone</li>"+
+        "</ul>"+
+        "</td>"+
+        "</tr>"+
+        "</table><br>"+
+        "Locke si pone il PROBLEMA DELLA SOSTANZA, che esiste nelle varie Idee, ma non ne possiamo proferire. Non sappiamo cosa distingue un gatto da un uomo "+
+        "proprio perché non conosciamo l'essenza della sostanza. Per l'uomo possiamo pensare che sia quell'individuo fornito di psiché, anima e cogito, ma questa "+
+        "è la sua essenza nominale. In ogni caso, non possiamo dire l'essenza della sostanza. Varie correnti filosofiche ci avevano già provato:"+
+        "<ul>"+
+        "<li>I naturalisti con l'arché</li>"+
+        "<li>I pluralisti con l'atomo</li>"+
+        "<li>Aristotele come qualunque cosa sia causa di sé stessa</li>"+
+        "<li>LOCKE, infine, arriva a dire che la sostanza è causa di sé stessa, ma non è conoscibile</li>"+
+        "</ul>"+
+        "<span class=connect>La logica dimostra che esiste una causa prima, ma questa, per Locke non è Dio (che deve necessariamente autoprodursi), bensì la sostanza, di cui non possiamo conoscere nulla. "+
+        "L'intelletto non può separare le idee di corpo, forma, ed estensione, e quindi non può giungere all'idea di sostanza.</span>"+
+        "<span class=important>Per questo, il limite dell'intelletto è l'esperienza, che non arriva al punto di separare la forma dall'estensione.</span>"+
+        "<br>La filosofia di Locke è mirata all'UTILITARISMO, ossia la ricerca dell'utile per sé stessi, per avere un'esistenza felice. La felicità è l'arricchimento della propria conoscenza per eliminare i pregiudizi instillati dalla tradizione.",
         color: "rgb(135, 220, 220)",
     },
     {
